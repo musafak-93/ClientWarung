@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <script src="jquery.min.js"></script>
+    <script src="edit.js"></script>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: darkviolet;">Update Data</h1>
+    <div>
+        <a href="main.html" target="#" style="font-size: x-large;"">Home</a>
+    </div>
+    <br>
+    <table>
+        <tr>
+            <td>ID</td>
+            <td><input type="text" id="id" value=""></input></td>
+            <td><button onclick="findforupdate()">FIND</button></td>
+        </tr>
+    </table>
+    <br>
+    <div>
+        <table>
+            <form id="inputid">
+                <tr>
+                    <td>ID: </td>
+                    <td><input type="text" name="id" id="nid" value=""></input></td>
+                </tr>
+                <tr>
+                    <td>Nama Dagangan: </td>
+                    <td><input type="text" name="nama" id="nnamadagangan" value=""></input></td>
+                </tr>
+                <tr>
+                    <td>Harga:</td>
+                    <td><input type="text" name="nim" id="nharga" value=""></input></td>
+                </tr>
+                <tr>
+                    <td>Jumlah:</td>
+                    <td><input type="text" name="nim" id="njumlah" value=""></input></td>
+                </tr>
+            </form>
+        </table>
+    </div>
+    <br>
+    <tr>
+        <td></td>
+        <td><button onclick='update()'>Update</button></td>
+    </tr>
+    <br><br>
+    <div id="data"></div>
+</body>
+
+</html>
