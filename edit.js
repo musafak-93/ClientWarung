@@ -87,7 +87,7 @@ function createdata(){
     let ids = idinput.elements[0].value;
     let namadagangans = idinput.elements[1].value;
     let hargas= idinput.elements[2].value;
-    let jumlahs= idinput.elements[2].value;
+    let jumlahs= idinput.elements[3].value;
     let xml =
             '<barang>' +
             '<id>' + ids + '</id>' +
